@@ -2132,3 +2132,42 @@ button:focus {
   height: fit-content;
   padding-top: 2rem;
 }
+
+/* Prize Container CSS ~Contributed by Darshan */
+#prizeContainer{
+  /* border: 2px solid black; */
+}
+
+#winnerSection{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 4px solid black;
+}
+
+#goldCard, #silverCard, #bronzeCard{
+  width: 22rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #2b2a2e;
+  color: white;
+  font-family: 'Balsamiq Sans', 'cursive';
+}
+
+#goldCard{
+  box-shadow: 8px 8px 6px 8px rgb(255,215,0);
+}
+
+#silverCard{
+  box-shadow: 8px 8px 6px 8px #555652;;
+}
+
+#bronzeCard{
+  box-shadow: 8px 8px 6px 8px #6d6240;;
+}
