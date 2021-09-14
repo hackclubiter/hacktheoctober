@@ -4,11 +4,8 @@
 }
 
 body {
-  background: rgb(45, 12, 6);
-  background: linear-gradient(90deg, rgba(45, 12, 6, 1) 0%, rgba(247, 71, 0, 1) 0%, rgba(244, 240, 225, 1) 100%);
-  /* background: rgb(247,71,0);
-background: linear-gradient(90deg, rgba(247,71,0,1) 0%, rgba(103,119,100,1) 100%); */
-  font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #17171d;
+  font-family: 'Lora';
 }
 
 .landing-page {
@@ -19,40 +16,50 @@ background: linear-gradient(90deg, rgba(247,71,0,1) 0%, rgba(103,119,100,1) 100%
   margin: auto;
 }
 
-.club-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.club-logo span {
-  font-size: 3em;
-  font-weight: 900;
-  color: #bb3327;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 3px;
-}
-
-.club-logo img {
-  width: 5em;
-}
-
 .event-logo img {
-  width: 70%;
+  width: calc(100% - 10em);
 }
 
 .event-logo p {
   color: #667762;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
-  margin: -10px 0;
+  /* margin: -10px 0; */
   text-transform: capitalize;
 }
 
 .event-logo span {
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  font-size: 1.2em;
+}
+
+.club-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.club-details p {
+  color: #667762;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 30px 0;
+  text-transform: capitalize;
+  }
+
+.club-details span {
+  font-size: 4em;
+  font-weight: 900;
+  color: #bb3327;
+  margin-left: 10px;
+  -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 3px;
 }
+
+/* .club-details img {
+  width: 5em;
+} */
 
 .reg-btn {
   text-decoration: none;
@@ -64,9 +71,10 @@ background: linear-gradient(90deg, rgba(247,71,0,1) 0%, rgba(103,119,100,1) 100%
   transition: all 0.125s ease-in-out;
   text-transform: uppercase;
   line-height: 1;
-  font-size: 24px;
-  padding: 16px 32px;
-  background-image: radial-gradient(ellipse farthest-corner at top left, #ff8c37, #ec3750);
+  font-size: 1.5em;
+  padding: 0.8em 1em;
+  /* background-image: radial-gradient(ellipse farthest-corner at top left, #ff8c37, #ec3750); */
+  background-color: #ec3750;
 }
 
 .reg-btn:focus,
@@ -82,8 +90,8 @@ background: linear-gradient(90deg, rgba(247,71,0,1) 0%, rgba(103,119,100,1) 100%
 }
 
 .timer {
-  margin: 15px 30px;
-  width: 120px;
+  margin: 0 1.8em;
+  width: 8em;
   background-color:rgba(245,197,168,0.5);
   text-align: center;
   border-radius: 10px;
@@ -93,37 +101,84 @@ background: linear-gradient(90deg, rgba(247,71,0,1) 0%, rgba(103,119,100,1) 100%
 
 .timer p {
   color: #b43b25;
-  font-size: 45px;
-  margin: 25px 8px;
+  font-size: 3em;
+  margin: 0.4em 0;
 }
 
 .timer h6 {
   margin: 0;
-  padding: 10px;
-  font-size: 1em;
+  padding: 1em;
+  font-size: 1.2em;
   background: #b03720;
   color: #fff;
   text-transform: uppercase;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  box-shadow: 15px 10px 20px #b23c24;;
+  box-shadow: rgb(134 110 98) 5px 5px 20px;
 }
 
 @media only screen and (max-width: 1400px) {
   body {
     font-size: 14px;
   }
-
-  .timer {
-    width: 100px;
-  }
-
-  .timer p {
-    margin: 15px 8px;
-  }
 }
+
 @media only screen and (min-width: 1400px) {
   body {
-    font-size: 16px;
+    font-size: 14px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 6px;
+    }
+
+    .club-details {
+      flex-direction: column;
+    }
+
+    .reg-btn {
+      font-size: 1.5em;
+      padding: 1em 1.2em;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+  .event-logo {
+    margin-top: 10em;
+  }
+
+  .event-logo p {
+    margin: 2em 0;
+  }
+
+  .register {
+    margin-top: 10em;
+  }
+
 }
