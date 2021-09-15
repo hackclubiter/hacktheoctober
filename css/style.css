@@ -7,12 +7,11 @@
 }
 
 body {
-  font-family: "Lora";
   background: #17171d;
 }
 
 .landing-page {
-  padding: 3em 1em;
+  padding: 1em 1em;
   text-align: center;
   max-height: 100vh;
   max-width: 1200px;
@@ -20,12 +19,12 @@ body {
 }
 
 .top-flower {
-  width: 30em;
+  width: 15em;
 }
 
 .event-logo img {
-  padding: 2rem 0 2rem 0;
-  width: calc(100% - 10em);
+  padding: 1rem 0 1rem 0;
+  width: calc(100% - 30em);
 }
 
 .event-logo p {
@@ -36,8 +35,6 @@ body {
 }
 
 .event-logo span {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1.25px;
   font-size: 1em;
 }
 
@@ -59,8 +56,6 @@ body {
   font-weight: 900;
   color: #bb3327;
   margin-left: 10px;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1.25px;
 }
 
 /* .club-details img {
@@ -102,7 +97,7 @@ body {
 .countdown {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin: 10px 0;
 }
 
 .timer {
@@ -253,10 +248,9 @@ canvas {
     width: calc(100% - 3em);
   }
 
-  .club-details {
-    flex-direction: column;
+  .register{
+    padding-top: 2rem;
   }
-
   .reg-btn {
     font-size: 1.5em;
     padding: 1em 1.2em;
