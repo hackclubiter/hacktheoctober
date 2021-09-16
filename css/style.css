@@ -279,7 +279,7 @@ canvas {
   margin: 0;
   min-width: 0;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
   color: var(--theme-ui-colors-muted);
   background-color: var(--theme-ui-colors-dark);
   position: relative;
@@ -293,7 +293,7 @@ canvas {
 @media screen and (min-width: 32em) {
   .css-t0m9ex {
     padding-top: 64px;
-    padding-bottom: 64px;
+    padding-bottom: 25px;
   }
 }
 
@@ -510,6 +510,35 @@ canvas {
   -moz-transform: scale(1.125);
   -ms-transform: scale(1.125);
   transform: scale(1.125);
+}
+
+.footer_bottom {
+  margin-top: 2em;
+}
+
+.copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.right-reserved {
+  margin-right: 6px;
+}
+
+.hack-club::before {
+  content: "•";
+  margin-right: 6px;
+}
+
+.hack-club a {
+  text-decoration: none;
+}
+
+.hack-club a:hover {
+  color: #bb3327 !important;
+  transition: all 0.2s ease-in;
 }
 
 /* Footer Ends */
