@@ -79,6 +79,7 @@ nav ul li a:hover {
   nav {
     padding: 0.5em 2em 0.5em 4em;
     width: 75%;
+    z-index: 2;
   }
 
   nav.sticky {
@@ -444,7 +445,6 @@ canvas {
   background: #121217 radial-gradient(#1f2d3d 1px, transparent 1px);
   -webkit-background-size: 32px 32px;
   background-size: 32px 32px;
-  z-index: -1;
 }
 
 @media screen and (min-width: 32em) {
