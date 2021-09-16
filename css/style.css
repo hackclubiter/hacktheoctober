@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
 
 body {
@@ -14,7 +13,7 @@ body {
 /* Navigation */
 
 nav {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: fixed;
   top: 15px;
   left: 0;
@@ -345,6 +344,87 @@ nav ul li a:hover {
   font-weight: 100;
 }
 
+.prize-section {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.prize-headline {
+  font-size: 3.5em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+  text-align: center;
+}
+
+.container {
+  margin: 2rem;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.card {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  width: 290px;
+  height: auto;
+}
+
+.card_title {
+  font-weight: normal;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: poppins;
+}
+hr {
+  margin-top: 70px;
+}
+
+.features {
+  margin: 40px 0;
+  list-style-position: inside;
+  color: white;
+  font-family: poppins;
+}
+
+.features li {
+  padding-bottom: 10px;
+  font-size: 1.3em;
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 30px;
+  }
+
+  .card_title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  hr {
+    margin-top: 50px;
+  }
+}
+
 canvas {
   width: 100%;
   height: 100vh;
@@ -431,7 +511,7 @@ canvas {
 /* Footer */
 
 .css-t0m9ex {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -580,7 +660,8 @@ canvas {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
   font-weight: 700;
   line-height: 1.125;
   font-weight: 700;
@@ -657,7 +738,8 @@ canvas {
 .css-o77nwf a {
   line-height: 0;
   margin-bottom: 0;
-  -webkit-transition: -webkit-transform 0.125s ease-in-out, color 0.125s ease-in-out;
+  -webkit-transition: -webkit-transform 0.125s ease-in-out,
+    color 0.125s ease-in-out;
   transition: transform 0.125s ease-in-out, color 0.125s ease-in-out;
 }
 
