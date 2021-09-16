@@ -359,7 +359,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.container {
+.prize-container {
   margin: 2rem;
   padding: 2rem 2rem;
   display: flex;
@@ -369,7 +369,7 @@ nav ul li a:hover {
   gap: 40px;
 }
 
-.card {
+.prize-card {
   padding: 50px;
   background: rgba(255, 255, 255, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.2);
@@ -379,7 +379,7 @@ nav ul li a:hover {
   height: auto;
 }
 
-.card_title {
+.prize-card_title {
   font-weight: normal;
   font-size: 36px;
   margin-bottom: 20px;
@@ -390,20 +390,20 @@ hr {
   margin-top: 70px;
 }
 
-.features {
+.prize-features {
   margin: 40px 0;
   list-style-position: inside;
   color: white;
   font-family: poppins;
 }
 
-.features li {
+.prize-features li {
   padding-bottom: 10px;
   font-size: 1.3em;
 }
 
 @media only screen and (max-width: 425px) {
-  .container {
+  .prize-container {
     padding: 0 1rem;
   }
 
@@ -411,11 +411,11 @@ hr {
     font-size: 14px;
   }
 
-  .card {
+  .prize-card {
     padding: 30px;
   }
 
-  .card_title {
+  .prize-card_title {
     font-size: 24px;
     margin-bottom: 12px;
   }
