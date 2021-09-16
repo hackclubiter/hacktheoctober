@@ -3,16 +3,18 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "MedievalSharp", cursive;
+  
 }
 
 body {
   background: #17171d;
+  font-family: "MedievalSharp", cursive;
 }
 
 /* Navigation */
 
 nav {
+  font-family: 'Poppins', sans-serif;
   position: fixed;
   top: 0;
   left: 0;
@@ -94,7 +96,7 @@ nav ul li a:hover {
   }
 
   .menu-btn-burger {
-    width: 40px;
+    width: 35px;
     height: 5px;
     background: #fff;
     border-radius: 5px;
@@ -105,7 +107,7 @@ nav ul li a:hover {
   .menu-btn-burger::after {
     content: "";
     position: absolute;
-    width: 40px;
+    width: 35px;
     height: 5px;
     background: #fff;
     border-radius: 5px;
@@ -425,6 +427,7 @@ canvas {
 /* Footer */
 
 .css-t0m9ex {
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
