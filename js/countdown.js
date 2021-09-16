@@ -15,3 +15,10 @@ document.getElementById("hour").innerHTML = hours;
 document.getElementById("minute").innerHTML = minutes;
 document.getElementById("second").innerHTML = seconds;
 });
+
+// Navigation
+
+window.addEventListener("scroll", function() {
+    var nav = document.querySelector("nav");
+    nav.classList.toggle("sticky", window.scrollY > 0);
+})

@@ -10,12 +10,66 @@ body {
   background: #17171d;
 }
 
+/* Navigation */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+}
+
+nav.sticky {
+  padding: 20px 100px;
+  background-color: rgb(176, 55, 32);
+}
+
+nav .logo {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  position: relative;
+  list-style: none;
+}
+
+nav ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500;
+  transition: 0.6s;
+}
+
+
 .landing-page {
   padding: 1em 1em;
   text-align: center;
   min-height: 100vh;
   max-width: 1200px;
-  margin: auto;
+  /* margin: auto; */
+  margin: 5em auto;
 }
 
 .top-flower {
