@@ -994,18 +994,8 @@ canvas {
 
 .workshop-container .workshop-card:hover .face.face1 {
   transform: translateY(0);
-  box-shadow:
-    /* inset 0 0 60px whitesmoke,
-    inset 20px 0 80px #f0f,
-    inset -20px 0 80px #0ff,
-    inset 20px 0 300px #f0f,
-    inset -20px 0 300px #0ff,
-    0 0 50px #fff,
-    -10px 0 80px #f0f,
-    10px 0 80px #0ff; */ inset
-      0 0 60px whitesmoke,
-    inset 20px 0 80px #b53a25, inset -40px 0 80px #677662, inset 20px 0 300px #b53a25, inset -40px 0 300px #677662,
-    0 0 50px #fff, -10px 0 80px #b53a25, 20px 0 80px #677662;
+  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #b53a25, inset -40px 0 80px #677662,
+    inset 20px 0 300px #b53a25, inset -40px 0 300px #677662, 0 0 10px #fff, -3px 0 20px #b53a25, 5px 0 20px #677662;
 }
 
 .workshop-container .workshop-card .face.face1 .workshop-content {
@@ -1069,9 +1059,6 @@ canvas {
   padding: 0.5em 0.8em;
   background-color: #ec3750;
 }
-
-
-
 
 /* Team */
 
