@@ -1069,3 +1069,96 @@ canvas {
   padding: 0.5em 0.8em;
   background-color: #ec3750;
 }
+
+
+
+
+/* Team */
+
+.team-section {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.team-headline {
+  font-size: 3.5em;
+  color: white;
+  font-family: poppins;
+  text-align: center;
+}
+
+.team {
+  /* margin: 2rem;
+  padding: 2rem 2rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 4em;
+  margin: 4em;
+}
+
+.team-container {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 0 4em 0.8em 4em;
+  /* width: 290px; */
+  max-width: 250px;
+  border-radius: 5px;
+  /* box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3); */
+  background: linear-gradient(45deg, #677662, #b53a25);
+}
+
+.team-container .team-wrapper img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+.team-wrapper .title {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 500;
+}
+.team-wrapper .place {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1em;
+}
+.team-content {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.team-container .icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.team-container .icons li {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+.team-container .icons li a {
+  color: #d4482b;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background: #fff;
+  display: block;
+  line-height: 40px;
+  transition: all 0.3s;
+}
+
+.team-container .icons li a:hover {
+  transform: scale(0.9);
+}
+
+.team-container .icons li a span {
+  font-size: 1.2em;
+}
