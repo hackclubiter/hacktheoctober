@@ -731,8 +731,7 @@ canvas {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, sans-serif;
+  font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: 700;
   line-height: 1.125;
   font-weight: 700;
@@ -809,8 +808,7 @@ canvas {
 .css-o77nwf a {
   line-height: 0;
   margin-bottom: 0;
-  -webkit-transition: -webkit-transform 0.125s ease-in-out,
-    color 0.125s ease-in-out;
+  -webkit-transition: -webkit-transform 0.125s ease-in-out, color 0.125s ease-in-out;
   transition: transform 0.125s ease-in-out, color 0.125s ease-in-out;
 }
 
@@ -852,3 +850,91 @@ canvas {
 }
 
 /* Footer Ends */
+
+.speaker-section {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.speaker-headline {
+  font-size: 3.5em;
+  color: white;
+  font-family: poppins;
+  text-align: center;
+}
+
+.speakers {
+  /* margin: 2rem;
+  padding: 2rem 2rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 4em;
+  margin: 4em;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 0 4em 0.8em 4em;
+  /* width: 290px; */
+  max-width: 250px;
+  border-radius: 5px;
+  /* box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3); */
+  background: linear-gradient(45deg, #b53a25, #677662);
+}
+
+.container .wrapper img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+.wrapper .title {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 500;
+}
+.wrapper .place {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1em;
+}
+.content {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.container .icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.container .icons li {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+.container .icons li a {
+  color: #d4482b;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background: #fff;
+  display: block;
+  line-height: 40px;
+  transition: all 0.3s;
+}
+
+.container .icons li a:hover {
+  transform: scale(0.9);
+}
+
+.container .icons li a span {
+  font-size: 1.2em;
+}
