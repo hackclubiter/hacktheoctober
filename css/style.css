@@ -979,7 +979,8 @@ canvas {
 }
 
 .workshop-container {
-  margin: 2rem;
+  margin: 2rem auto;
+  width: calc(100% - 15em);
   padding: 2rem 2rem;
   display: flex;
   flex-wrap: wrap;
