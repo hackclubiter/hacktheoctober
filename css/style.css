@@ -459,6 +459,8 @@ hr {
   flex-direction: column;
   gap: 30px;
   padding: 4rem 0;
+  width: calc(100% - 10em);
+  margin: auto;
 }
 
 .single-faq-container {
