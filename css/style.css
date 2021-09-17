@@ -573,11 +573,11 @@ canvas {
   }
 
   .workshop-container .workshop-card .face {
-    transition: 0.8s;
+    transition: 1.2s;
   }
   
   .workshop-container .workshop-card .face.face1 .workshop-content {
-    transition: 1s;
+    transition: 1.5s;
   }
 }
 
