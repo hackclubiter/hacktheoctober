@@ -378,6 +378,13 @@ nav ul li a:hover {
   border-radius: 25px;
   width: 290px;
   height: auto;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.prize-card:hover {
+  transform: scale(1.03);
+  background-color: rgba(175, 175, 175, 0.3);
 }
 
 .prize-card_title {
@@ -424,6 +431,69 @@ hr {
   hr {
     margin-top: 50px;
   }
+}
+
+.faq-section {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.faq-headline {
+  font-size: 3.5em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+  text-align: center;
+}
+
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 4rem 0;
+}
+
+.single-faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq {
+  color: white;
+  font-size: 1.3em;
+  font-family: poppins;
+  border: 1px solid white;
+  padding: 2rem;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  user-select: none;
+}
+
+.faq-right {
+  justify-content: flex-end;
+}
+
+.faq-answer {
+  color: white;
+  font-size: 1.3em;
+  font-family: poppins;
+  border: 1px solid white;
+  padding: 2rem;
+  width: 80%;
+  background: rgba(54, 54, 54, 0.1);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  user-select: none;
+}
+
+.hidden {
+  display: none;
 }
 
 canvas {
