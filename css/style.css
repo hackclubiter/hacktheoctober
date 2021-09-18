@@ -188,8 +188,7 @@ nav ul li a:hover {
 .landing-page {
   /* padding: 1em 0 1em 0; */
   text-align: center;
-  /* min-height: 100vh; */
-  height: calc(100vh - 6em);
+  min-height: calc(100vh - 6em);
   max-width: 1200px;
   margin: 6em auto 0;
 }
