@@ -186,11 +186,12 @@ nav ul li a:hover {
 }
 /* Landing Page */
 .landing-page {
-  padding: 1em 0 1em 0;
+  /* padding: 1em 0 1em 0; */
   text-align: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: calc(100vh - 6em);
   max-width: 1200px;
-  margin: 5em auto 0;
+  margin: 6em auto 0;
 }
 
 .top-flower {
