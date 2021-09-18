@@ -333,6 +333,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  width: 100%;
 }
 .event-card {
   background-color: white;
