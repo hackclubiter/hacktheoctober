@@ -190,7 +190,7 @@ nav ul li a:hover {
   text-align: center;
   min-height: 100vh;
   max-width: 1200px;
-  margin: 5em auto;
+  margin: 5em auto 0;
 }
 
 .top-flower {
