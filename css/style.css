@@ -224,11 +224,18 @@ nav ul li a:hover {
   text-transform: capitalize;
 }
 
-.club-details span {
+.club-details a {
   font-size: 2em;
   font-weight: 900;
   color: #bb3327;
   margin-left: 10px;
+  text-decoration: none;
+}
+
+.club-details a:hover{
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  color: #e0551f;
 }
 
 /* .club-details img {
@@ -301,12 +308,12 @@ nav ul li a:hover {
 
 .event-container {
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 40px 20px;
+  padding: 30px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .event-headline {
@@ -315,7 +322,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .card-container {
@@ -335,8 +342,7 @@ nav ul li a:hover {
 
 .event-info {
   color: white;
-  padding: 40px;
-  padding-bottom: 0;
+  padding: 10px 40px 20px 40px;
   font-size: 1.5em;
   text-align: center;
   line-height: 2em;
@@ -568,7 +574,7 @@ canvas {
     font-size: 9px;
   }
 
-  .club-details span {
+  .club-details a {
     font-size: 2.5em;
   }
 
