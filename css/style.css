@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
   font-family: "MedievalSharp", cursive;
   overflow-y: scroll;
   scrollbar-width: none;
+  
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
