@@ -1017,11 +1017,19 @@ canvas {
 
 .workshop-section {
   width: 100vw;
-  min-height: 100vh;
+  padding: 3rem;
+  padding-bottom: 6em ;
 }
 
 .workshop-headline {
   font-size: 3.5em;
+  color: white;
+  font-family: poppins;
+  text-align: center;
+}
+
+.workshop-section p{
+  font-size: 1em;
   color: white;
   font-family: poppins;
   text-align: center;
