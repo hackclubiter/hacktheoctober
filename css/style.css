@@ -396,8 +396,8 @@ nav ul li a:hover {
 /* Prize */
 
 .prize-section {
+  padding-top: 3rem;
   width: 100vw;
-  min-height: 100vh;
 }
 
 .prize-headline {
@@ -426,7 +426,7 @@ nav ul li a:hover {
   border: 2px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   border-radius: 25px;
-  width: 290px;
+  width: 500px;
   height: auto;
   transition-duration: 300ms;
   cursor: pointer;
@@ -445,7 +445,7 @@ nav ul li a:hover {
   font-family: poppins;
 }
 hr {
-  margin-top: 70px;
+  margin-top: 10px;
 }
 
 .prize-features {
@@ -456,7 +456,7 @@ hr {
 }
 
 .prize-features li {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-size: 1.3em;
 }
 
