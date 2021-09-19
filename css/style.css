@@ -74,6 +74,7 @@ nav ul li {
 }
 
 nav ul li a {
+  cursor: pointer;
   position: relative;
   margin: 0 15px;
   text-decoration: none;
@@ -84,7 +85,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #17171d;
+  color: #77cc5b;
 }
 
 .menu-btn {

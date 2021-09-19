@@ -27,11 +27,18 @@
     <nav>
       <a href="https://iter.hackclub.com" target="blank" class="logo">Hack Club ITER</a>
       <ul class="list">
-        <li><a href="#about">About</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#workshop">Workshops</a></li>
-        <li><a href="#faq">FAQs</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
+          <a>About</a></li>
+        <li onclick="document.getElementById('').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
+          <a href="#">Schedule</a></li>
+        <li onclick="document.getElementById('').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
+          <a href="">Prize</a></li>
+        <li onclick="document.getElementById('workshops').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
+          <a>Workshops</a></li>
+        <li onclick="document.getElementById('faq').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
+          <a>FAQs</a></li>
+        <li onclick="document.getElementById('').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
+          <a>Contact</a></li>
       </ul>
       <div class="menu-btn" id="hamburger">
         <div class="menu-btn-burger"></div>
@@ -500,7 +507,7 @@
     </div>
   </section>
 
-  <section class="workshop-section">
+  <section class="workshop-section" id="workshops">
     <div class="workshop-headline">
       Workshops!
     </div>
