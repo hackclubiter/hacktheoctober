@@ -194,7 +194,22 @@ nav ul li a:hover {
 }
 
 .top-flower {
+  position: relative;
+}
+
+.top-flower svg{
   width: 15em;
+}
+
+.hacktober-logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 6px;
+}
+
+.hacktober-logo img {
+  width: 20em;
 }
 
 .event-logo img {
@@ -581,17 +596,27 @@ canvas {
   body {
     font-size: 12px;
   }
+
+  .hacktober-logo {
+    top: 12px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
   body {
     font-size: 10px;
   }
+  .hacktober-logo {
+    top: 18px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   body {
     font-size: 9px;
+  }
+  .hacktober-logo {
+    top: 22px;
   }
 }
 
