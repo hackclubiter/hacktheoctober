@@ -255,6 +255,34 @@ nav ul li a:hover {
   color: #e0551f;
 }
 
+.hacktober {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.hacktober p {
+  color: #667762;
+  font-size: 2em;
+  font-weight: 700;
+  /* margin: 30px 0; */
+  text-transform: capitalize;
+}
+
+.hacktober a {
+  font-size: 2em;
+  font-weight: 900;
+  color: #bb3327;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.hacktober a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  color: #e0551f;
+}
+
 /* .club-details img {
   width: 5em;
 } */
