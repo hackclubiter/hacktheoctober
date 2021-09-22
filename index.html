@@ -31,13 +31,13 @@
           <a>About</a></li>
         <li onclick="document.getElementById('').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
           <a href="#">Schedule</a></li>
-        <li onclick="document.getElementById('').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
+        <li onclick="document.getElementById('prize').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
           <a href="">Prize</a></li>
-        <li onclick="document.getElementById('workshops').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
+        <li onclick="document.getElementById('workshop').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
           <a>Workshops</a></li>
         <li onclick="document.getElementById('faq').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
           <a>FAQs</a></li>
-        <li onclick="document.getElementById('').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
+        <li onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth', block: 'start'});closeNav();">
           <a>Contact</a></li>
       </ul>
       <div class="menu-btn" id="hamburger">
@@ -493,7 +493,7 @@
     </div>
   </div>
 
-  <section class="prize-section">
+  <section class="prize-section" id="prize">
     <div class="prize-headline">What’s in it for the top contributors?</div>
     <div class="prize-container">
       <div class="prize-card">
@@ -517,22 +517,7 @@
     </div>
   </section>
 
-  <section class="workshop-section" id="workshops">
-    <div class="workshop-headline">
-      Workshops!
-    </div>
-    <p>
-      Coming Soon!
-    </p>
-    <p class="join-us">
-      Join the community to get notified!
-    </p>
-    <a href="https://discord.com/invite/C622bAZsGm" target="_blank" class="join-btn">Click here</a>
-  </section>
-
-  <!--
-   
-   <section class="workshop-section">
+   <section class="workshop-section" id="workshop">
     <div class="workshop-headline">
       Workshops!
     </div>
@@ -540,16 +525,15 @@
       <div class="workshop-card">
         <div class="face face1">
           <div class="workshop-content">
-            <i class="fab fa-windows"></i>
-            <h3>Windows</h3>
+            <i class="fab fa-github"></i>
+            <h3>GIT & GITHUB</h3>
           </div>
         </div>
         <div class="face face2">
           <div class="workshop-content">
-            <h1>Title of workshop</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ab quidem voluptate, itaque expedita
-              ut
-              esse eum eius voluptas dolore!</p>
+            <h1>Git & GitHub</h1>
+            <p>Know about how to contribute to open-sourced projects through GitHub</p>
+            <p><i class="fa fa-calendar"></i><strong>Oct 03, 2021</strong><span style="margin-left: 10px;"><strong><i class="fa fa-clock"></i>07:00 PM IST</strong></span></p>
             <a href="#" type="button" class="join-us-btn">Join Us</a>
           </div>
         </div>
@@ -558,21 +542,69 @@
       <div class="workshop-card">
         <div class="face face1">
           <div class="workshop-content">
-            <i class="fab fa-windows"></i>
-            <h3>Windows</h3>
+            <i class="fab fa-github"></i>
+            <h3>What is Hacktoberfest?</h3>
           </div>
         </div>
         <div class="face face2">
           <div class="workshop-content">
-            <h1>Title of workshop</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ab quidem voluptate, itaque expedita
-              ut
-              esse eum eius voluptas dolore!</p>
+            <h1>What is Hacktoberfest?</h1>
+            <p>Learn more about Hacktoberfest and how to create PRs.</p>
+            <p><i class="fa fa-calendar"></i><strong>Oct 13, 2021</strong><span style="margin-left: 10px;"><strong><i class="fa fa-clock"></i>07:00 PM IST</strong></span></p>
             <a href="#" type="button" class="join-us-btn">Join Us</a>
           </div>
         </div>
+      </div>    
+    </div>
+   </section>
+
+   <section class="speaker-section">
+    <div class="speaker-headline">
+      Our Speakers!
+    </div>
+    <div class="speakers">
+
+      <div class="container">
+        <div class="wrapper">
+          <a href="#">
+            <img src="./assets/images/try.png" alt="">
+          </a>
+          <div class="title">
+           Harsh Bajpai
+          </div>
+          <div class="place" style="padding-bottom:45px;">
+            SWE Hack Club APAC
+          </div>
+        </div>
+        <div class="icons">
+          <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+          <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+        </div>
       </div>
 
+      <div class="container">
+        <div class="wrapper">
+          <a href="#">
+            <img src="./assets/images/try.png" alt="">
+          </a>
+          <div class="title">
+            Kartikey Rawat
+          </div>
+          <div class="place">
+            Founder DevStuCom Community Dev Intern, Turing, Community Developer Advocate  TensorflowJS.
+          </div>
+        </div>
+        <div class="icons">
+          <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+          <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+        </div>
+      </div>
+
+    </div>
+   </section>
+
+
+<!--
       <div class="workshop-card">
         <div class="face face1">
           <div class="workshop-content">
@@ -763,7 +795,11 @@
   </section>
 
   
-
+<p class="join-us">
+      Join the community to get notified!
+    </p>
+    <a href="https://discord.com/invite/C622bAZsGm" target="_blank" class="join-btn">Click here</a>
+  
   
   <section class="prize-section">
     <div class="prize-headline">What’s in it for the top contributors?</div>
