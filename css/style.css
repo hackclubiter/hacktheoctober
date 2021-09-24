@@ -538,6 +538,8 @@ canvas {
   color: #fff;
   font-size: 2em;
   font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 8px;
 }
 .wrapper .place {
   color: #fff;
@@ -1238,7 +1240,7 @@ canvas {
   }
 
   .container {
-    height: 390px;
+    height: 405px;
   }
 
 }
@@ -1249,6 +1251,9 @@ canvas {
   }
   .hacktober-logo {
     top: 18px;
+  }
+  .container {
+    height: 390px;
   }
 }
 
