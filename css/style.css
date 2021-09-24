@@ -519,10 +519,12 @@ canvas {
   text-align: center;
   padding: 0 4em 0.8em 4em;
   width: 230px;
+  height: 420px;
   /* max-width: 250px; */
   border-radius: 5px;
   /* box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3); */
   background: linear-gradient(45deg, #b53a25, #677662);
+  position: relative;
 }
 
 .container .wrapper img {
@@ -542,9 +544,6 @@ canvas {
   font-size: 1.1em;
   line-height: 1em;
 }
-.wrapper .left-cont {
-  padding-bottom: 2.85em;
-}
 .content {
   color: #fff;
   font-size: 1.2em;
@@ -555,6 +554,10 @@ canvas {
   display: flex;
   justify-content: center;
   list-style: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
 }
 
 .container .icons li {
@@ -1234,9 +1237,10 @@ canvas {
     top: 12px;
   }
 
-  .wrapper .left-cont {
-    padding-bottom: 2.05em;
+  .container {
+    height: 390px;
   }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -1255,6 +1259,9 @@ canvas {
   .hacktober-logo {
     top: 22px;
   }
+  .container {
+    height: 370px;
+}
 }
 
 @media only screen and (max-width: 500px) {
