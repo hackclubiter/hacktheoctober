@@ -57,7 +57,7 @@ a.scroll-down {
     text-align: center;
     padding: 0 4em 0.8em 4em;
     /* width: 230px; */
-    height: 320px;
+    height: 345px;
     border-radius: 5px;
     background: linear-gradient(45deg, #b53a25, #677662);
     position: relative;
@@ -80,8 +80,15 @@ a.scroll-down {
   .project-wrapper .project-place {
     color: #fff;
     font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+
+  .project-wrapper .project-language {
+    color: #fff;
+    font-size: 1.1em;
     line-height: 1em;
   }
+
   .project-content {
     color: #fff;
     font-size: 1.2em;
@@ -129,6 +136,10 @@ a.scroll-down {
     .project-wrapper .project-place {
         font-size: 1.4em;
     }
+
+    .project-wrapper .project-language {
+      font-size: 1.4em;
+  }
 
     .project-container .project-icons li {
         width: 100px;
