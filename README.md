@@ -1,1 +1,3 @@
-# Hack the October
+<p align="center"><img src="https://user-images.githubusercontent.com/39031660/135498780-f3e682a1-2886-4dea-8fcf-f5fee0bc3bb4.png" width=400></p>
+
+<p align="center"><i>A plethora of Open Source Contribution for beginners, developers and experts. Learn, Build, Share and Contribute is the main motto. It is a 30 Days long event, full of exciting workshops, AMAs and Open Source Contribution roadmaps. This is an initiative to encourage participants to take part in Hacktoberfest and giving back to the open-source community by completing pull requests, participating in events, and donating to open source projects.</i></p>
