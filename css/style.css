@@ -739,7 +739,8 @@ canvas {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
   font-weight: 700;
   line-height: 1.125;
   font-weight: 700;
@@ -816,7 +817,8 @@ canvas {
 .css-o77nwf a {
   line-height: 0;
   margin-bottom: 0;
-  -webkit-transition: -webkit-transform 0.125s ease-in-out, color 0.125s ease-in-out;
+  -webkit-transition: -webkit-transform 0.125s ease-in-out,
+    color 0.125s ease-in-out;
   transition: transform 0.125s ease-in-out, color 0.125s ease-in-out;
 }
 
@@ -940,8 +942,10 @@ canvas {
 
 .workshop-container .workshop-card:hover .face.face1 {
   transform: translateY(0);
-  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #b53a25, inset -40px 0 80px #677662,
-    inset 20px 0 300px #b53a25, inset -40px 0 300px #677662, 0 0 10px #fff, -3px 0 20px #b53a25, 5px 0 20px #677662;
+  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #b53a25,
+    inset -40px 0 80px #677662, inset 20px 0 300px #b53a25,
+    inset -40px 0 300px #677662, 0 0 10px #fff, -3px 0 20px #b53a25,
+    5px 0 20px #677662;
 }
 
 .workshop-container .workshop-card .face.face1 .workshop-content {
@@ -1096,7 +1100,7 @@ canvas {
   font-size: 1.2em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1212px) {
   nav {
     padding: 0.5em 2em 0.5em 4em;
   }
@@ -1242,7 +1246,6 @@ canvas {
   .container {
     height: 405px;
   }
-
 }
 
 @media only screen and (max-width: 900px) {
@@ -1266,7 +1269,7 @@ canvas {
   }
   .container {
     height: 370px;
-}
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -1295,8 +1298,10 @@ canvas {
 
   .workshop-container .workshop-card .face.face1 {
     transform: translateY(0) !important;
-    box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #b53a25, inset -40px 0 80px #677662,
-      inset 20px 0 300px #b53a25, inset -40px 0 300px #677662, 0 0 10px #fff, -3px 0 20px #b53a25, 5px 0 20px #677662;
+    box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #b53a25,
+      inset -40px 0 80px #677662, inset 20px 0 300px #b53a25,
+      inset -40px 0 300px #677662, 0 0 10px #fff, -3px 0 20px #b53a25,
+      5px 0 20px #677662;
   }
 
   .workshop-container .workshop-card .face.face1 .workshop-content {
