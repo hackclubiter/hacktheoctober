@@ -21,6 +21,6 @@ function projectData(user) {
   `;
   }
   
-  document.getElementById("app").innerHTML = `
+  document.getElementsByClassName('projects')[0].innerHTML = `
   ${userData.map(projectData).join("")}
   `;
