@@ -17,5 +17,76 @@ const userData = [
         userImage: "https://avatars.githubusercontent.com/u/44737783?v=4",
         projectRepo:"SamarjeetBanik/get-your-PR-accepted",
     },
-    
+    {
+        projectName: "BabyShop",
+        userName: "Aditya Arpan Sahoo",
+        userImage: "https://avatars.githubusercontent.com/u/75975428?v=4",
+        projectRepo:"arpanaditya/BabyShop",
+    },
+    {
+        projectName: "music beatz",
+        userName: "Soumya Rath",
+        userImage: "https://raw.githubusercontent.com/hackclubiter/cdn/main/coreTeam/WhatsApp%20Image%202021-10-01%20at%209.58.35%20PM%20-%20Soumya%20Rath.jpeg",
+        projectRepo:"soumyarath3277/music_beatz",
+    },
+    {
+        projectName: "Web Browser using JAVA",
+        userName: "Ankit Raj Biswal",
+        userImage: "https://avatars.githubusercontent.com/u/53295960?v=4",
+        projectRepo:"ankitrajbiswal/Web-Browser-usingJAVA",
+    },
+    {
+        projectName: "Voice Assistant",
+        userName: "Ankit Raj Biswal",
+        userImage: "https://avatars.githubusercontent.com/u/53295960?v=4",
+        projectRepo:"ankitrajbiswal/Voice-Assistant",
+    },
+    {
+        projectName: "Image Encryption and Decryption",
+        userName: "Ankit Raj Biswal",
+        userImage: "https://avatars.githubusercontent.com/u/53295960?v=4",
+        projectRepo:"ankitrajbiswal/Image-Encryption-and-Decryption",
+    },
+    {
+        projectName: "Digits Recognition",
+        userName: "Nupur Srivastava",
+        userImage: "https://avatars.githubusercontent.com/u/70944857?v=4",
+        projectRepo:"Nupur-Srivastava/Digits-Recognition",
+    },
+    {
+        projectName: "Cine Review",
+        userName: "Saswat Mohanty",
+        userImage: "https://avatars.githubusercontent.com/u/53933493?v=4",
+        projectRepo:"Saswat7101/Cine-Review",
+    },
+    {
+        projectName: "Awesome Tech Stories",
+        userName: "Swapnil Chand",
+        userImage: "https://avatars.githubusercontent.com/u/73406083?v=4",
+        projectRepo:"SwapnilChand/awesome-tech-stories-",
+    },
+    {
+        projectName: "Tech O Time",
+        userName: "Sunanda Samantaray",
+        userImage: "https://avatars.githubusercontent.com/u/69299241?v=4",
+        projectRepo:"SS-2213/Tech-O-Time-",
+    },
+    {
+        projectName: "Amazing-Frontend-Templates",
+        userName: "Coders Evoke",
+        userImage: "https://avatars.githubusercontent.com/u/85440563?s=200&v=4",
+        projectRepo:"Coders-Evoke-Community/Amazing-Frontend_Templates",
+    },
+    {
+        projectName: "Map Routing",
+        userName: "Prahen parija",
+        userImage: "https://avatars.githubusercontent.com/u/54349939?v=4",
+        projectRepo:"prahenstark/map_routing",
+    },
+    {
+        projectName: "Image Uploader",
+        userName: "Prahen parija",
+        userImage: "https://avatars.githubusercontent.com/u/54349939?v=4",
+        projectRepo:"prahenstark/ImageUploader",
+    },
 ];
