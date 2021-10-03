@@ -12,12 +12,6 @@ const userData = [
         projectRepo:"motasimmakki/Chat-Application-In-Java",
     },
     {
-        projectName: "Get Your PR Accepted",
-        userName: "Samarjeet Banik",
-        userImage: "https://avatars.githubusercontent.com/u/44737783?v=4",
-        projectRepo:"SamarjeetBanik/get-your-PR-accepted",
-    },
-    {
         projectName: "BabyShop",
         userName: "Aditya Arpan Sahoo",
         userImage: "https://avatars.githubusercontent.com/u/75975428?v=4",
