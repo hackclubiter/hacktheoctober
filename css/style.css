@@ -109,6 +109,28 @@ nav ul li a:hover {
   width: 15em;
 }
 
+.headLine {
+  font-family: 'Pirata One', cursive;
+  letter-spacing: 5px;
+  font-size: 5em;
+  color: #f74700;
+  margin: 0.2em 0;
+}
+
+.headLine span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #667762;
+  /* font-size: 0.8em; */
+}
+
+.headLine span h3 {
+  margin: 0 0.2em;
+  color: #f74700;
+  font-size: 1.5em;
+}
+
 .hacktober-logo {
   position: absolute;
   left: 0;
