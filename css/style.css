@@ -139,7 +139,7 @@ nav ul li a:hover {
 }
 
 .hacktober-logo img {
-  width: 20em;
+  width: 6em;
 }
 
 .event-logo img {
@@ -1299,6 +1299,10 @@ canvas {
     font-size: 9px;
   }
 
+  .headLine {
+    font-size: 4em;
+  }
+
   .club-details a {
     font-size: 2.5em;
   }
@@ -1342,6 +1346,10 @@ canvas {
 @media only screen and (max-width: 425px) {
   body {
     font-size: 9px;
+  }
+
+  .headLine {
+    font-size: 3.3em;
   }
 
   .event-logo img {
