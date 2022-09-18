@@ -1,22 +1,49 @@
-import Link from 'next/link'
-import React from 'react'
-import GlowText from '../Reusable/GlowText'
-import GlowTextNormal from '../Reusable/GlowTextNormal'
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+import GlowText from "../Reusable/GlowText";
+import GlowTextNormal from "../Reusable/GlowTextNormal";
+import Logo from "./Logo";
+import MobileNav from "./MobileNav";
+
+//Data
+import { NAV_DATA } from "../../data/NavData";
 
 const Navbar = () => {
-  return (
-    <div className='h-20 w-full flex flex-row justify-between items-center px-20 font-JetBrains font-semibold'>
-      <Link href="/">
-        <GlowText
-          text={"HACKTOBERFEST"}
-          size={"text-xl"}
-        />
-        
-      </Link>
-      
-      <div>world</div>
-    </div>
-  )
-}
+  const [menu,setMenu] = React.useState(false);
 
-export default Navbar
+  return (
+    <div className='h-32 w-full flex flex-row justify-between items-center px-6 md:px-32 font-JetBrains font-semibold'>
+      <Link href='/'>
+        <div className='flex flex-row items-center cursor-pointer'>
+          <div>
+            <Logo />
+          </div>
+          <div className='ml-4'>
+            <GlowText text={"HACKTOBERFEST"} size={"text-xl"} />
+          </div>
+        </div>
+      </Link>
+      <div className='hidden md:flex flex-row space-x-6'>
+        {NAV_DATA.map((e, i) => {
+          return (
+            <div key={i}>
+              <Link href={e.link}>
+                <GlowText text={e.text} size={"text-xl"} />
+              </Link>
+            </div>
+          );
+        })}
+      </div>
+      <div onClick={()=>setMenu(!menu)} className="flex md:hidden">
+        <GlowText text={"MENU"} size={"text-xl"} />
+      </div>
+      {menu&&<MobileNav menu={menu} setMenu={setMenu}/>}
+    </div>
+  );
+};
+
+
+
+export default Navbar;
