@@ -44,7 +44,7 @@ const MobileNav:React.FC<props> = ({ menu, setMenu }) => {
           );
         })}
         <div className="absolute bottom-10 uppercase">
-            <GlowTextNormal text={'© 2021 All Rights Reserved Hack Club ITER'} size={"text-xs"}/>
+            <GlowTextNormal text={'© 2022 Hack Club ITER, All Rights Reserved '} size={"text-xs"}/>
         </div>
       </div>
     </motion.div>
