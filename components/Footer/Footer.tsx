@@ -3,10 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import GlowText from "../Reusable/GlowText";
 import GlowTextNormal from "../Reusable/GlowTextNormal";
-import Divider from "./Divider";
+import StripBar from "../Reusable/StripBar";
 
 const Footer = () => {
   return (
+    <>
+    <StripBar/>
     <div className=' flex flex-col md:flex-row pb-10 md:pb-28 px-6 md:px-0 justify-center space-y-12 md:space-x-20'>
       <div className='flex flex-col items-start mt-6'>
         <div className='flex justify-center items-center relative'>
@@ -99,6 +101,7 @@ const Footer = () => {
         </Link>
       </div>
     </div>
+    </>
   );
 };
 
