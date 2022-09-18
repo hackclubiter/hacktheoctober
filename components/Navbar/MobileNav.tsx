@@ -16,7 +16,7 @@ const MobileNav:React.FC<props> = ({ menu, setMenu }) => {
     <motion.div 
         initial={{opacity:0}}
         animate={{opacity:1}}
-        transition={{duration:0.5}}
+        transition={{duration:0.6}}
         className='h-screen w-screen bg-[#170F1E] flex md:hidden flex-col fixed top-0 left-0 z-50'>
       <div className='h-32 w-full flex flex-row justify-between items-center px-6 md:px-32 font-JetBrains font-semibold'>
         <Link href='/'>
