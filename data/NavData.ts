@@ -24,7 +24,7 @@ export const NAV_DATA = [
       text: "FAQ",
     },
     {
-      link: "#",
+      link: "#Footer",
       text: "CONTACT",
     },
   ];
