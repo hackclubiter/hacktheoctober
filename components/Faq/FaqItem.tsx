@@ -12,10 +12,13 @@ const FaqItem = ({ q, a }: Props) => {
       {({ open }: { open: boolean }) => (
         <>
           <Disclosure.Button
-            className="flex justify-between text-xl  rounded-lg lg:text-2xl font-medium gap-4 cursor-pointer items-center py-3 px-4 font-JetBrains "
+            as="div"
+            className="flex justify-between text-xl rounded-lg lg:text-2xl font-medium gap-4 cursor-pointer items-center py-3 px-4 text-[#40DDFF] border-2 border-[#E5E1E6]/20 border-dashed"
           >
-            {q}
-              <FiChevronDown size={40} />
+            <div className="w-[90%]">
+            {'>>'} {q}
+            </div>
+              <FiChevronDown className={`h-8 md:w-8 w-[10%] ${open && 'rotate-180'} duration-200 ease-out`} />
           </Disclosure.Button>
 
           <Transition
@@ -26,8 +29,8 @@ const FaqItem = ({ q, a }: Props) => {
             leaveFrom="transform scale-100 opacity-100"
             leaveTo="transform scale-95 opacity-0"
           >
-            <Disclosure.Panel className="rounded-lg text-gray-200 textl-lg lg:text-xl p-4 ">
-              {a}
+            <Disclosure.Panel className="rounded-lg text-[#E5E1E6] textl-lg lg:text-xl p-4 border-2 border-[#E5E1E6]/20 border-dashed">
+            {'>>'} {a}
             </Disclosure.Panel>
           </Transition>
         </>
