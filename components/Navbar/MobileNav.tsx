@@ -41,9 +41,9 @@ const MobileNav:React.FC<props> = ({ menu, setMenu }) => {
             animate={{translateY:0,opacity:1}}
             transition={{delay:i/10+0.2, type: "spring", stiffness: 100 }}
             key={i} className='pb-2 pt-6 border-b border-[#fff]/20'>
-              <Link href={e.link}>
+              <a href={e.link} onClick={() => setMenu(!menu)}>
                 <GlowText text={e.text} size={"text-xl"} />
-              </Link>
+              </a>
             </motion.div>
           );
         })}
