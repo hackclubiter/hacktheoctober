@@ -75,12 +75,7 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
             Hack
           </text>
         </div>
-        <div className="font-JetBrains text-center opacity-70 px-5 md:px-56">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
-          distinctio ipsum, voluptatum ut, id veritatis nemo quibusdam
-          doloremque assumenda mollitia, necessitatibus magni praesentium?
-          Dolore consequatur ea corrupti eaque at vel?
-        </div>
+       
         <div className="w-full text-2xl gap-16 flex justify-center items-center">
           <div className="w-10 h-10 flex flex-col justify-center items-center">
             <div className="border-b-4">{date.day}</div>
