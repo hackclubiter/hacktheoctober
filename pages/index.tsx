@@ -4,6 +4,7 @@ import Faq from "../components/Faq/Faq";
 import Container from "../components/Layout/Container";
 import styles from "../styles/Home.module.css";
 import Card from "../components/Card/Card";
+import Card2 from "../components/Card/Card2";
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,13 @@ const Home: NextPage = () => {
       <div className="flex flex-col md:flex-row m-5 items-center justify-center">
         <Card/>
         <Card/>
+
+      </div>
+
+
+      <div className="flex flex-col md:flex-row m-5 items-center justify-center">
+      <Card2/>
+      
       </div>
       <Faq/>
     </Container>
