@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
     <StripBar/>
-    <div className=' flex flex-col md:flex-row pb-10 md:pb-28 px-6 md:px-0 justify-center space-y-12 md:space-x-20'>
+    <div id="Footer" className=' flex flex-col md:flex-row pb-10 md:pb-28 px-6 md:px-0 justify-center space-y-12 md:space-x-20'>
       <div className='flex flex-col items-start mt-10'>
         <div className='flex justify-center items-center relative'>
           <Image src='/Logo.svg' alt='logo' width={120} height={120} />
