@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React from "react";
-import Card from "../Card/Card";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 
@@ -13,10 +12,6 @@ const Container = ({ children }) => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar />
-      <div className="flex flex-col md:flex-row m-5 items-center justify-center">
-      <Card/>
-      <Card/>
-      </div>
       {children}
       <Footer />
     </div>
