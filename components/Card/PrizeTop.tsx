@@ -4,7 +4,7 @@ import StripBar from "../Reusable/StripBar";
 
 const PrizeTop = () => {
   return (
-    <div className='w-full flex flex-col md:flex-row justify-center items-center'>
+    <div className='w-full flex flex-col md:flex-row justify-center items-center hover:scale-[1.05] hover:-translate-y-5 ease-linear duration-150 cursor-pointer'>
       <div className='md:h-64 w-full bg-gradient-to-r  m-5 from-purple-400  to-pink-300 rounded-md shadow-custom'>
         <p className='text-gray-100 py-3 font-JetBrains font-bold leading-10 p-4 text-3xl'>
           TOP THREE CONTRIBUTIONS
