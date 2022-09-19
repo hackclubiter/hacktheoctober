@@ -29,9 +29,9 @@ const Navbar = () => {
         {NAV_DATA.map((e, i) => {
           return (
             <div key={i}>
-              <Link href={e.link}>
+              <a href={e.link}>
                 <GlowText text={e.text} size={"text-xl"} />
-              </Link>
+              </a>
             </div>
           );
         })}

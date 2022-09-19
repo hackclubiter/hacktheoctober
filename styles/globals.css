@@ -8,6 +8,7 @@ body {
   margin: 0;
   background-color: #170F1E;
   background-image: url('../public/bg-filter.png');
+  scroll-behavior: smooth;
 }
 
 a {

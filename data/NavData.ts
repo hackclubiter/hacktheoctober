@@ -20,7 +20,7 @@ export const NAV_DATA = [
       text: "PROJECTS",
     },
     {
-      link: "#",
+      link: "#FAQ",
       text: "FAQ",
     },
     {
