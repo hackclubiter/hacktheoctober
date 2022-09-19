@@ -5,7 +5,7 @@ import FaqItem from './FaqItem';
 
 const Faq = () => {
   return (
-    <div id="FAQ" className='max-w-screen-xl mx-auto px-4 md:px-6 flex flex-col justify-center my-20 selection:bg-[#b4ff39] selection:text-[#170F1E] '>
+    <div id="FAQ" className='max-w-screen-xl mx-auto px-4 md:px-6 flex flex-col justify-center my-20 selection:bg-[#b4ff39] selection:text-[#170F1E] font-JetBrains'>
        <div className='mx-auto'>
         <GlowTextNormal text="[ Frequently Asked questions ]" size="text-lg md:text-5xl uppercase"/>
        </div>
