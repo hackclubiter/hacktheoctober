@@ -26,7 +26,7 @@ const SpeakerCard: React.FC<props> = ({
         <div className=" w-full h-full bg-[url('/bganimated.gif')] mix-blend-color-dodge absolute top-0 bg-cover bg-center"></div>
         <div className='h-44 w-44 rounded-full bg-black overflow-hidden border-2 border-cyan-400 z-10'>
           <img
-            src={"https://avatarfiles.alphacoders.com/169/169513.png"}
+            src={image.toString()}
             alt='speaker image'
             className='rounded-full'
           />
