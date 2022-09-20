@@ -7,7 +7,7 @@ const Speaker = () => {
   return (
     <div
       id='Prize'
-      className='max-w-screen-2xl mx-auto px-4 md:px-6 flex flex-col justify-center my-32 selection:bg-[#b4ff39] selection:text-[#170F1E] '
+      className='max-w-screen-2xl mx-auto px-4 md:px-6 flex flex-col justify-center my-20 selection:bg-[#b4ff39] selection:text-[#170F1E] '
     >
       <div className='mx-auto'>
         <GlowTextNormal

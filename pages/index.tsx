@@ -5,6 +5,8 @@ import Container from "../components/Layout/Container";
 import HeroSection from "../components/Hero";
 import Prize from "../components/Prize/Prize";
 import Speaker from "../components/Speaker/Speaker";
+import Divider from "../components/Reusable/Divider";
+import Divider2 from "../components/Reusable/Divider2";
 
 const Home: NextPage = () => {
   return (
@@ -12,11 +14,14 @@ const Home: NextPage = () => {
       {/* Hero Section */}
       <HeroSection />
       {/* Prize */}
+      <Divider2/>
       <Prize/>
       {/* Speakers */}
+      <Divider/>
       <Speaker/>
       {/* Workshops & Events */}
       {/* FAQ */}
+      <Divider2/>
       <Faq />
     </Container>
   );
