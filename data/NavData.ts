@@ -13,11 +13,11 @@ export const NAV_DATA:navDataType[] = [
       text: "SCHEDULE",
     },
     {
-      link: "#",
+      link: "#Prize",
       text: "PRIZE",
     },
     {
-      link: "#",
+      link: "#Event",
       text: "WORKSHOPS",
     },
     {
