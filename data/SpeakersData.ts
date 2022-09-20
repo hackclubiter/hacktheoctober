@@ -1,4 +1,11 @@
-export const SPEAKER_DATA = [
+interface speakerDataType{
+    name:String,
+    image:String,
+    description:String,
+    twitter:String,
+    linkedin:String
+}
+export const SPEAKER_DATA:speakerDataType[] = [
     {
         name:'Pavitra Behara',
         image:'https://avatarfiles.alphacoders.com/169/169513.png',

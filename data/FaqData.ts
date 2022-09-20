@@ -1,4 +1,9 @@
-export const FAQ_DATA =[
+interface faqDataTypes  {
+    q:String,
+    a:String,
+}
+
+export const FAQ_DATA:faqDataTypes[] =[
     {
         q:`How it is different from Hactoberfest 2022?`,
         a:`Hack the October fest is a 30 days long event organized by Hack Club ITER in the view of Hacktoberfest. We

@@ -1,4 +1,9 @@
-export const NAV_DATA = [
+interface navDataType {
+  link:String,
+  text:String,
+}
+
+export const NAV_DATA:navDataType[] = [
     {
       link: "#",
       text: "ABOUT",
