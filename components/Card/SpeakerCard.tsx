@@ -19,9 +19,9 @@ const SpeakerCard: React.FC<props> = ({
   linkedin,
 }) => {
   return (
-    <div className='w-full md:w-72 flex flex-col md:flex-row justify-center items-center hover:scale-[1.05] hover:-translate-y-2 ease-linear duration-150 cursor-pointer'>
+    <div className='w-full md:w-80 flex flex-col md:flex-row justify-center items-center hover:scale-[1.05] hover:-translate-y-2 ease-linear duration-150 cursor-pointer'>
       <div
-        className={`bg-gradient-to-b w-full  flex flex-col items-center m-5 p-2     hover:shadow-xl hover:shadow-cyan-500/50  from-[rgba(124,127,255)] border-4 border-[rgba(64,221,255)] rounded-md to-[rgba(64,221,255)] hover:scale-[1.05] hover:-translate-y-2 ease-linear duration-150 cursor-pointer font-JetBrains relative`}
+        className={`bg-gradient-to-b w-full  flex flex-col items-center m-3 p-2     hover:shadow-xl hover:shadow-cyan-500/50  from-[rgba(124,127,255)] border-4 border-[rgba(64,221,255)] rounded-md to-[rgba(64,221,255)] hover:scale-[1.05] hover:-translate-y-2 ease-linear duration-150 cursor-pointer font-JetBrains relative`}
       >
         <div className=" w-full h-full bg-[url('/bganimated.gif')] mix-blend-color-dodge absolute top-0 bg-cover bg-center"></div>
         <div className='h-44 w-44 rounded-full bg-black overflow-hidden border-2 border-cyan-400 z-10'>
@@ -38,13 +38,13 @@ const SpeakerCard: React.FC<props> = ({
 
         <div className='w-full flex flex-row mt-8 justify-between p-3  z-10'>
           <Link href={linkedin.toString()}>
-            <div className='text-lg text-black font-bold hover:text-black/60'>
-              {">>LinkedIn"}
+            <div className='bg-black px-3 py-1 text-lg text-white hover:text-cyan-300 ease-linear duration-150 ' style={{"clipPath":"polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px)"}}>
+              {"LinkedIn"}
             </div>
           </Link>
           <Link href={twitter.toString()}>
-            <div className='text-lg text-black font-bold hover:text-black/60'>
-              {">>Twitter"}
+            <div className='bg-black px-3 py-1 text-lg text-white hover:text-cyan-300 ease-linear duration-150 ' style={{"clipPath":"polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px)"}}>
+              {"Twitter"}
             </div>
           </Link>
         </div>
