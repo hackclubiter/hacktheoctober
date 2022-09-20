@@ -7,6 +7,7 @@ import Prize from "../components/Prize/Prize";
 import Speaker from "../components/Speaker/Speaker";
 import Divider from "../components/Reusable/Divider";
 import Divider2 from "../components/Reusable/Divider2";
+import Event from "../components/Events/Event";
 
 const Home: NextPage = () => {
   return (
@@ -20,8 +21,10 @@ const Home: NextPage = () => {
       <Divider/>
       <Speaker/>
       {/* Workshops & Events */}
-      {/* FAQ */}
       <Divider2/>
+      <Event/>
+      {/* FAQ */}
+      <Divider/>
       <Faq />
     </Container>
   );
