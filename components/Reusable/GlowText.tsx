@@ -1,8 +1,8 @@
 import React from 'react';
 
 type props = {
-    size:string,
-    text:string,
+    size:String,
+    text:String,
 }
 
 const GlowText:React.FC<props> = ({text,size}) => {
