@@ -7,6 +7,7 @@ import {
 } from "react";
 import Logo from "../Navbar/Logo";
 import GlowText from "../Reusable/GlowText";
+import GlowTextNormal from "../Reusable/GlowTextNormal";
 import styles from "./Hero.module.css";
 
 interface HeroSectionProps {}
@@ -76,22 +77,22 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
           </text>
         </div>
        
-        <div className="w-full text-2xl gap-16 flex justify-center items-center">
+        <div className="w-full text-2xl gap-12 md:gap-16 flex justify-center items-center">
           <div className="w-10 h-10 flex flex-col justify-center items-center">
-            <div className="border-b-4">{date.day}</div>
-            <div className="text-base">days</div>
+            <div className="border-b-2"><GlowTextNormal text={date.day.toString()} size={'text-xl md:text-2xl'}/></div>
+            <div className="text-base"><GlowTextNormal text={'Days'} size={'text-base md:text-xl'}/></div>
           </div>
           <div className="w-10 h-10 flex flex-col justify-center items-center">
-            <div className="border-b-4">{date.hour}</div>
-            <div className="text-base">hours</div>
+            <div className="border-b-2"><GlowTextNormal text={date.hour.toString()} size={'text-xl md:text-2xl'}/></div>
+            <div className="text-base"><GlowTextNormal text={'Hours'} size={'text-base md:text-xl'}/></div>
           </div>
           <div className="w-10 h-10 flex flex-col justify-center items-center">
-            <div className="border-b-4">{date.minute}</div>
-            <div className="text-base">minutes</div>
+            <div className="border-b-2"><GlowTextNormal text={date.minute.toString()} size={'text-xl md:text-2xl'}/></div>
+            <div className="text-base"><GlowTextNormal text={'Minutes'} size={'text-base md:text-xl'}/></div>
           </div>
           <div className="w-10 h-10 flex flex-col justify-center items-center">
-            <div className="border-b-4">{date.second}</div>
-            <div className="text-base">seconds</div>
+            <div className="border-b-2"><GlowTextNormal text={date.second.toString()} size={'text-xl md:text-2xl'}/></div>
+            <div className="text-base"><GlowTextNormal text={'Seconds'} size={'text-base md:text-xl'}/></div>
           </div>
         </div>
       </div>
