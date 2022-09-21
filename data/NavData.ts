@@ -21,7 +21,7 @@ export const NAV_DATA:navDataType[] = [
       text: "WORKSHOPS",
     },
     {
-      link: "#",
+      link: "/projects",
       text: "PROJECTS",
     },
     {
