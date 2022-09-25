@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       {/* Hero Section */}
       <HeroSection />
       {/* Prize */}
-      <Divider2/>
+      <Divider/>
       <About/>
       <Divider2/>
       <Prize/>
