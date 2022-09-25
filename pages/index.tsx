@@ -8,6 +8,7 @@ import Speaker from "../components/Speaker/Speaker";
 import Divider from "../components/Reusable/Divider";
 import Divider2 from "../components/Reusable/Divider2";
 import Event from "../components/Events/Event";
+import About from "../components/About/About";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,8 @@ const Home: NextPage = () => {
       {/* Hero Section */}
       <HeroSection />
       {/* Prize */}
+      <Divider2/>
+      <About/>
       <Divider2/>
       <Prize/>
       {/* Speakers */}
