@@ -1,9 +1,9 @@
 interface speakerDataType{
-    name:String,
-    image:String,
-    description:String,
-    twitter:String,
-    linkedin:String
+    name:string,
+    image:string,
+    description:string,
+    twitter:string,
+    linkedin:string
 }
 export const SPEAKER_DATA:speakerDataType[] = [
     {

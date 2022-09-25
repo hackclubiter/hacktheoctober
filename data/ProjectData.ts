@@ -1,5 +1,9 @@
-
-export const PROJECT_DATA = [
+interface projectDataType{
+    projectName:string,
+    des:string,
+    projectRepo:string,
+}
+export const PROJECT_DATA:projectDataType[] = [
     {
         projectName: "coFind",
         des: "Brief infotmation about the project",

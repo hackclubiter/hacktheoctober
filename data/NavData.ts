@@ -1,6 +1,6 @@
 interface navDataType {
-  link:String,
-  text:String,
+  link:string,
+  text:string,
 }
 
 export const NAV_DATA:navDataType[] = [

@@ -1,9 +1,9 @@
 interface eventDataType{
-    name:String,
-    description:String,
-    startTime:String,
-    endTime:String,
-    link:String
+    name:string,
+    description:string,
+    startTime:string,
+    endTime:string,
+    link:string
 }
 export const EVENT_DATA:eventDataType[] = [
     {

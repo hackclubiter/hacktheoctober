@@ -1,6 +1,6 @@
 interface faqDataTypes  {
-    q:String,
-    a:String,
+    q:string,
+    a:string,
 }
 
 export const FAQ_DATA:faqDataTypes[] =[
