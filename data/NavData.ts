@@ -5,7 +5,7 @@ interface navDataType {
 
 export const NAV_DATA:navDataType[] = [
     {
-      link: "#",
+      link: "#About",
       text: "ABOUT",
     },
     {
