@@ -65,7 +65,8 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
           "w-full min-h-screen flex flex-col gap-10 pt-20 " + styles.hero
         }
       >
-        <Logo width={300} height={300} />
+        
+        <p className=" leading-10 text-center font-JetBrains mt-20 text-2xl font-bold md:text-4xl"><a className=" text-5xl bg-gradient-to-r  m-5 from-purple-400  to-pink-300  shadow-custom p-1 rounded-md ">HACK CLUB ITER</a> <br/>in collaboration with <br/><a className=" text-4xl p-1 bg-gradient-to-r m-5 from-teal-400  to-teal-300 rounded-md shadow-custom2">GDSC ITER</a> presents</p>
         <div
           className={
             "flex w-full flex-col justify-center items-center text-7xl md:text-9xl " +

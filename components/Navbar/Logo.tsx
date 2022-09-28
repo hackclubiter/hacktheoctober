@@ -12,7 +12,7 @@ const Logo: FunctionComponent<LogoProps> = ({ width, height }) => {
       <Image src="/Logo.svg" alt="logo" width={width} height={height} />
       <div className="absolute pt-2">
         <Image
-          src="/H.svg"
+          src="/hto.jpg"
           alt="logo"
           width={width * 0.6}
           height={height * 0.6}

@@ -23,7 +23,7 @@ const MobileNav: React.FC<props> = ({ menu, setMenu }) => {
         <Link href="/">
           <div className="flex flex-row items-center cursor-pointer">
             <div>
-              <Logo height={50} width={50} />
+              <Logo height={50} width={100} />
             </div>
             <div className="ml-4">
               <GlowText text={"HACKTOBERFEST"} size={"text-xl"} />
