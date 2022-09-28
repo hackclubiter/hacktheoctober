@@ -5,6 +5,7 @@ import {
   useRef,
   useState,
 } from "react";
+import Link from 'next/link';
 import Logo from "../Navbar/Logo";
 import GlowText from "../Reusable/GlowText";
 import GlowTextNormal from "../Reusable/GlowTextNormal";
@@ -58,15 +59,33 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
     });
     return () => clearInterval(x);
   }, []);
+  // <p className=" leading-10 text-center font-JetBrains mt-20 text-2xl font-bold md:text-4xl"><a className=" text-5xl bg-gradient-to-r  m-5 from-purple-400  to-pink-300  shadow-custom p-1 rounded-md ">HACK CLUB ITER</a> <br/>in collaboration with <br/><a className=" text-4xl p-1 bg-gradient-to-r m-5 from-teal-400  to-teal-300 rounded-md shadow-custom2">GDSC ITER</a> presents</p>
   return (
     <>
       <div
         className={
-          "w-full min-h-screen flex flex-col gap-10 pt-20 " + styles.hero
+          "w-full min-h-screen flex flex-col gap-10 font-JetBrains " + styles.hero
         }
       >
-        
-        <p className=" leading-10 text-center font-JetBrains mt-20 text-2xl font-bold md:text-4xl"><a className=" text-5xl bg-gradient-to-r  m-5 from-purple-400  to-pink-300  shadow-custom p-1 rounded-md ">HACK CLUB ITER</a> <br/>in collaboration with <br/><a className=" text-4xl p-1 bg-gradient-to-r m-5 from-teal-400  to-teal-300 rounded-md shadow-custom2">GDSC ITER</a> presents</p>
+        <div className="mx-auto mt-6">
+          <Link href={'https://iter.hackclub.com/'}>
+            <div className="text-2xl md:text-4xl font-bold bg-gradient-to-r  my-3 from-purple-400  to-pink-300  shadow-custom p-1 rounded-md font-JetBrains px-4 cursor-pointer">
+                Hack Club ITER
+            </div>
+          </Link>
+          <div className="text-base md:text-xl mx-auto text-center text-[#E5E1E6]/90 font-JetBrains">
+          in collaboration with
+          </div>
+          <Link href={'https://gdsc.community.dev/institute-of-technical-education-research-bhubaneswar/'}>
+            <div className="w-60 mx-auto text-center text-2xl md:text-4xl font-bold p-1 bg-gradient-to-r my-3 from-teal-400  to-teal-300 rounded-md shadow-custom2 font-JetBrains px-4 cursor-pointer">
+                GDSC ITER
+            </div>
+          </Link>
+          <div className="text-base md:text-xl mx-auto text-center text-[#E5E1E6]/90 font-JetBrains uppercase">
+          presents
+          </div>
+        </div>
+
         <div
           className={
             "flex w-full flex-col justify-center items-center text-7xl md:text-9xl " +
@@ -76,6 +95,14 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
           <text ref={heroTextRef} className={styles.heroText}>
             Hack
           </text>
+        </div>
+
+        <div className="mx-auto">
+          <Link href={'https://iter.hackclub.com/register'}>
+            <div className='text-base md:text-xl px-4 py-1 md:px-8 md:py-2  text-black ease-linear duration-150  cursor-pointer bg-gradient-to-r from-yellow-300  via-teal-300 to-violet-600 font-bold shadow-2xl hover:rotate-2' style={{"clipPath":"polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px)"}}>
+              Registration now open
+            </div>
+          </Link>
         </div>
        
         <div className="w-full text-2xl gap-12 md:gap-16 flex justify-center items-center">
