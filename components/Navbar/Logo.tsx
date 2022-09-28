@@ -9,13 +9,13 @@ interface LogoProps {
 const Logo: FunctionComponent<LogoProps> = ({ width, height }) => {
   return (
     <div className="flex justify-center items-center relative">
-      <Image src="/Logo.svg" alt="logo" width={width} height={height} />
-      <div className="absolute pt-2">
+      {/* <Image src="/Logo.svg" alt="logo" width={width} height={height} /> */}
+      <div className="">
         <Image
-          src="/hto.jpg"
+          src="/hto.png"
           alt="logo"
-          width={width * 0.6}
-          height={height * 0.6}
+          width={width}
+          height={height}
         />
       </div>
     </div>

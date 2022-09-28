@@ -23,11 +23,11 @@ const MobileNav: React.FC<props> = ({ menu, setMenu }) => {
         <Link href="/">
           <div className="flex flex-row items-center cursor-pointer">
             <div>
-              <Logo height={50} width={100} />
+              <Logo height={45} width={110} />
             </div>
-            <div className="ml-4">
+            {/* <div className="ml-4">
               <GlowText text={"HACKTOBERFEST"} size={"text-xl"} />
-            </div>
+            </div> */}
           </div>
         </Link>
         <div onClick={() => setMenu(!menu)} className="flex md:hidden">
