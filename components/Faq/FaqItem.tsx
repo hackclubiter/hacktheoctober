@@ -13,7 +13,7 @@ const FaqItem = ({ q, a }: Props) => {
         <>
           <Disclosure.Button
             as="div"
-            className="flex justify-between text-xl rounded-lg lg:text-2xl font-medium gap-4 cursor-pointer items-center py-3 px-4 text-[#40DDFF] border-2 border-[#E5E1E6]/20 border-dashed"
+            className="flex justify-between text-lg rounded-lg md:text-2xl font-medium gap-4 cursor-pointer items-center py-3 px-4 text-[#40DDFF] border-2 border-[#E5E1E6]/20 border-dashed"
           >
             <div className="w-[90%]">
             {'>>'} {q}
@@ -29,7 +29,7 @@ const FaqItem = ({ q, a }: Props) => {
             leaveFrom="transform scale-100 opacity-100"
             leaveTo="transform scale-95 opacity-0"
           >
-            <Disclosure.Panel className="rounded-lg text-[#E5E1E6] textl-lg lg:text-xl p-4 border-2 border-[#E5E1E6]/20 border-dashed">
+            <Disclosure.Panel className="rounded-lg text-[#E5E1E6] text-base md:text-xl p-4 border-2 border-[#E5E1E6]/20 border-dashed">
             {'>>'} {a}
             </Disclosure.Panel>
           </Transition>
