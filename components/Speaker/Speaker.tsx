@@ -1,6 +1,7 @@
 import React from "react";
 import { SPEAKER_DATA } from "../../data/SpeakersData";
 import SpeakerCard from "../Card/SpeakerCard";
+import GlowText from "../Reusable/GlowText";
 import GlowTextNormal from "../Reusable/GlowTextNormal";
 
 const Speaker = () => {
@@ -16,7 +17,13 @@ const Speaker = () => {
         />
       </div>
       <div className='w-full flex flex-wrap flex-col justify-center md:flex-row mt-6 md:mt-10'>
-        {SPEAKER_DATA.map((e, i) => {
+
+        <div className='mx-auto'>
+          <GlowText text='Coming Soon!' size='text-lg md:text-4xl uppercase'/>
+        </div>
+        {/*-------Add speaker data and uncomment this s*** */}
+
+        {/* {SPEAKER_DATA.map((e, i) => {
           return (
             <SpeakerCard
               key={i}
@@ -27,7 +34,7 @@ const Speaker = () => {
               linkedin={e.linkedin}
             />
           );
-        })}
+        })} */}
       </div>
     </div>
   );
