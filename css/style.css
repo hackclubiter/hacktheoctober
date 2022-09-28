@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -110,7 +111,7 @@ nav ul li a:hover {
 }
 
 .headLine {
-  font-family: 'Pirata One', cursive;
+  font-family: "Pirata One", cursive;
   letter-spacing: 5px;
   font-size: 5em;
   color: #f74700;
