@@ -8,10 +8,10 @@ export const NAV_DATA:navDataType[] = [
       link: "#About",
       text: "ABOUT",
     },
-    {
-      link: "#",
-      text: "SCHEDULE",
-    },
+    // {
+    //   link: "#",
+    //   text: "SCHEDULE",
+    // },
     {
       link: "#Prize",
       text: "PRIZE",
