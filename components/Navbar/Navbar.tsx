@@ -18,7 +18,7 @@ const Navbar = () => {
       <Link href="/">
         <div className="flex flex-row items-center cursor-pointer">
           <div>
-            <Logo width={110} height={45} />
+            <Logo width={110} height={47} />
           </div>
           {/* <div className="ml-4">
             <GlowText text={"HACKTOBERFEST"} size={"text-xl"} />
