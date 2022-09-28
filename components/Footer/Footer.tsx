@@ -11,13 +11,13 @@ const Footer = () => {
       <StripBar />
       <div
         id="Footer"
-        className=" bg-black flex flex-col md:flex-row pb-10 md:pb-28 px-6 md:px-0 justify-center space-y-12 md:space-x-20"
+        className=" flex flex-col md:flex-row pb-10 md:pb-28 px-6 md:px-0 justify-center space-y-12 md:space-x-20"
       >
         <div className="flex flex-col items-start mt-10">
-          <Image src="/hto.jpg" width={220} height={120} />
+          <Image src="/hto.png" width={220} height={120} alt="logo" />
 
           <div className="uppercase mt-6">
-            <GlowTextNormal text={"© 2022 Hack Club ITER,"} size={"text-xl"} />
+            <GlowTextNormal text={"© 2022 Hack The October,"} size={"text-xl"} />
             <GlowTextNormal text={" All Rights Reserved "} size={"text-xl"} />
           </div>
         </div>
