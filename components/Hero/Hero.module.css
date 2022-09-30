@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+
+.hero {
+  background: url(/gridbg.svg) center center / cover no-repeat;
+}
+
+.heroText {
+  animation: changeStyle 3s ease-in-out infinite;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@keyframes changeStyle {
+  0% {
+    text-decoration: overline;
+  }
+  25% {
+    text-decoration: underline dotted;
+  }
+  50% {
+    text-decoration: underline overline;
+  }
+  75% {
+    text-decoration: underline dashed;
+  }
+  100% {
+    text-decoration: line-through;
+  }
+}
