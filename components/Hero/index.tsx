@@ -38,7 +38,7 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
   }, []);
 
   useEffect(() => {
-    let countDownDate = new Date("October 30, 2022 00:00:00").getTime();
+    let countDownDate = new Date("October 01, 2022 00:00:00").getTime();
     let x = setInterval(function () {
       let now = new Date().getTime();
       let distance = countDownDate - now;
@@ -104,7 +104,11 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
             </div>
           </Link>
         </div>
-       
+        <div className="flex flex-col items-center">
+          <p className="text-center font-JetBrains">
+            Event starts in
+          </p>
+          </div>
         <div className="w-full text-2xl gap-12 md:gap-16 flex justify-center items-center">
           <div className="w-10 h-10 flex flex-col justify-center items-center">
             <div className="border-b-2"><GlowTextNormal text={date.day.toString()} size={'text-xl md:text-2xl'}/></div>
