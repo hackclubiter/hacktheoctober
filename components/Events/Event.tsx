@@ -22,8 +22,8 @@ const Event = () => {
                     key={i}
                     name={e.name}
                     description={e.description}
+                    date={e.date}
                     startTime={e.startTime}
-                    endTime={e.endTime}
                     link={e.link}
                 />
             )

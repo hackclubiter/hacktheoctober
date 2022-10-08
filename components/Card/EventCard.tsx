@@ -9,12 +9,12 @@ import { MdDateRange,MdAccessTime } from "react-icons/md";
 type props = {
   name: String;
   description: String;
+  date: String;
   startTime: String;
-  endTime: String;
   link: String;
 };
 
-const EventCard:React.FC<props> = ({name,description,startTime,endTime,link}) => {
+const EventCard:React.FC<props> = ({name,description,startTime,date,link}) => {
   return (
     <div className='w-full md:w-96 flex flex-col md:flex-row justify-center items-center hover:scale-[1.05] hover:-translate-y-2 ease-linear duration-150 cursor-pointer'>
       <div
@@ -29,11 +29,11 @@ const EventCard:React.FC<props> = ({name,description,startTime,endTime,link}) =>
         <div className='flex flex-row justify-evenly text-black mt-6'>
           <div className='flex flex-row'>
             <MdDateRange size={20} />
-            <div className="text-bold pl-1 uppercase">{startTime}</div>
+            <div className="text-bold pl-1 uppercase">{date}</div>
           </div>
           <div className='flex flex-row'>
             <MdAccessTime size={20} />
-            <div className="text-bold pl-1 uppercase">{endTime}</div>
+            <div className="text-bold pl-1 uppercase">{startTime}</div>
           </div>
         </div>
 
