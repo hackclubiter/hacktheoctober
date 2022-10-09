@@ -32,7 +32,7 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
     <>
       <div
         className={
-          "w-full min-h-screen flex flex-col gap-10 font-JetBrains " + styles.hero
+          "w-full min-h-screen flex flex-col gap-16 font-JetBrains " + styles.hero
         }
       >
         <div className="mx-auto mt-6">
