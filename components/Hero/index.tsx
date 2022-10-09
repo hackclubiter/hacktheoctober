@@ -6,20 +6,11 @@ import {
   useState,
 } from "react";
 import Link from 'next/link';
-import Logo from "../Navbar/Logo";
-import GlowText from "../Reusable/GlowText";
-import GlowTextNormal from "../Reusable/GlowTextNormal";
 import styles from "./Hero.module.css";
 
 interface HeroSectionProps {}
 
 const HeroSection: FunctionComponent<HeroSectionProps> = () => {
-  const [date, setDate] = useState({
-    day: 0,
-    hour: 0,
-    minute: 0,
-    second: 0,
-  });
   const heroTextRef: MutableRefObject<SVGTextElement> = useRef();
   useEffect(() => {
     if (heroTextRef.current) {
@@ -36,35 +27,12 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
       }, 3000);
     }
   }, []);
-
-  useEffect(() => {
-    let countDownDate = new Date("October 01, 2022 00:00:00").getTime();
-    let x = setInterval(function () {
-      let now = new Date().getTime();
-      let distance = countDownDate - now;
-
-      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      let hours = Math.floor(
-        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-      );
-      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      setDate({
-        day: days,
-        hour: hours,
-        minute: minutes,
-        second: seconds,
-      });
-    });
-    return () => clearInterval(x);
-  }, []);
   // <p className=" leading-10 text-center font-JetBrains mt-20 text-2xl font-bold md:text-4xl"><a className=" text-5xl bg-gradient-to-r  m-5 from-purple-400  to-pink-300  shadow-custom p-1 rounded-md ">HACK CLUB ITER</a> <br/>in collaboration with <br/><a className=" text-4xl p-1 bg-gradient-to-r m-5 from-teal-400  to-teal-300 rounded-md shadow-custom2">GDSC ITER</a> presents</p>
   return (
     <>
       <div
         className={
-          "w-full min-h-screen flex flex-col gap-10 font-JetBrains " + styles.hero
+          "w-full min-h-screen flex flex-col gap-16 font-JetBrains " + styles.hero
         }
       >
         <div className="mx-auto mt-6">
@@ -112,25 +80,8 @@ const HeroSection: FunctionComponent<HeroSectionProps> = () => {
             </div>
             <div className="h-3 w-3 bg-red-500 rounded-full ml-2 animate-pulse"></div>
           </div>
+          
           </div>
-        <div className="w-full text-2xl gap-12 md:gap-16 flex justify-center items-center">
-          <div className="w-10 h-10 flex flex-col justify-center items-center">
-            <div className="border-b-2"><GlowTextNormal text={'0'} size={'text-xl md:text-2xl'}/></div>
-            <div className="text-base"><GlowTextNormal text={'Days'} size={'text-base md:text-xl'}/></div>
-          </div>
-          <div className="w-10 h-10 flex flex-col justify-center items-center">
-            <div className="border-b-2"><GlowTextNormal text={'0'} size={'text-xl md:text-2xl'}/></div>
-            <div className="text-base"><GlowTextNormal text={'Hours'} size={'text-base md:text-xl'}/></div>
-          </div>
-          <div className="w-10 h-10 flex flex-col justify-center items-center">
-            <div className="border-b-2"><GlowTextNormal text={'0'} size={'text-xl md:text-2xl'}/></div>
-            <div className="text-base"><GlowTextNormal text={'Minutes'} size={'text-base md:text-xl'}/></div>
-          </div>
-          <div className="w-10 h-10 flex flex-col justify-center items-center">
-            <div className="border-b-2"><GlowTextNormal text={'0'} size={'text-xl md:text-2xl'}/></div>
-            <div className="text-base"><GlowTextNormal text={'Seconds'} size={'text-base md:text-xl'}/></div>
-          </div>
-        </div>
       </div>
     </>
   );
